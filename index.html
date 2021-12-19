@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hatahzina</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/4f76d27f0c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Script -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <video autoplay loop muted id="bgvideo">
+      <source src="images/video.mp4" type="video/mp4" />
+    </video>
+    <section class="colored" id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mynavBar">
+          <a href="" class="navbar-brand"
+            ><img src="images/logo.png" alt="" class="logo" />
+            <p class="companyname">Hatahzina</p></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">How it works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Games</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row">
+          <div class="container" id="home">
+            <h1 class="big-heading">Call it a club, call it a tribe, call it a family: Whatever you call it, you need one.”  </h1>
+            <h2 class="subheader">
+              <em><strong>Hatahzina </strong></em> &nbspyour club at ggPoker
+            </h2>
+            <p><a href="#footer" class="btn btn-lg">Join us</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section class="white" id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-md-4">
+            <img src="images/signup.png" class="bodyimage" />
+            <h3 class="features-heading">Register</h3>
+            <p>Download the ggClub App.</p>
+          </div>
+          <div class="feature-box col-md-4">
+            <img src="images/join.png" class="bodyimage" />
+            <h3 class="features-heading">Join</h3>
+            <p>
+              Join the Hatahzina Club
+            </p>
+          </div>
+          <div class="feature-box col-md-4">
+            <img src="images/enjoy.png" class="bodyimage" />
+            <h3 class="features-heading">Play</h3>
+            <p>Just start playing one of our daily tournements or join a cash table</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- caruosel  -->
+    
+
+    <!-- Footer -->
+
+    <footer class="white" id="footer">
+      <div class="container-fluid">
+        <i class="footer-icon fab fa-twitter-square"></i>
+        <i class="footer-icon fab fa-facebook-f"></i>
+        <i class="footer-icon fab fa-instagram-square"></i>
+        <i class="footer-icon fas fa-envelope"></i>
+        <p>© Devaloped by Eran.A</p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
