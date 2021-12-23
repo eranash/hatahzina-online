@@ -1,23 +1,21 @@
 body {
     font-family: vollkorn, serif;
     text-align: center;
+    background: url(https://images.pexels.com/photos/4253485/pexels-photo-4253485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center center fixed no-repeat;
+    background-size: cover;
 }
-#bgvideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -100;
+.tournament{
+    border: 2px solid;
+    text-align: center;
+    color: rgba(255, 202, 0, 0.7);
+    margin: 50px;
+    padding: 50px;
+    background: rgba(4, 42, 114, 0.301);
+    /* display: none; */
 }
-
 .link{
     color: antiquewhite;
-    font-size: 3rem;
-}
-
-.link:hover{
-    color: #ffca00;
+    font-size: 2rem;
 }
 
 ul {
@@ -45,7 +43,7 @@ ul {
 
 .companyname {
     display: inline;
-    color: #ffca00;
+    color: #00c6dc;
     font-size: 2rem;
 }
 
@@ -58,20 +56,19 @@ ul {
 
 .nav-link {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-right: 60px;
     padding: 10px 0;
 }
 
 .nav-link:hover {
-    border-bottom: 1px solid #ffca00;
+    border-bottom: 1px solid #00c6dc;
 }
 
 .big-heading {
-    color: #ffca00;
+    color: #00c6dc;
     font-size: 5rem;
     margin: 100px auto 50px;
-    width: 70%;
     /* letter-spacing: 2.5px; */
 }
 

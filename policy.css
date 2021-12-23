@@ -1,24 +1,13 @@
 body {
     font-family: vollkorn, serif;
     text-align: center;
-}
-#bgvideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -100;
+    /* background: url(images/gold.jpg) center center fixed; */
+    background-color: rgba(245, 230, 211, 0.787);
+    background-size: cover;
 }
 
-.link{
-    color: antiquewhite;
-    font-size: 3rem;
-}
 
-.link:hover{
-    color: #ffca00;
-}
+
 
 ul {
     margin-left: auto;
@@ -45,35 +34,39 @@ ul {
 
 .companyname {
     display: inline;
-    color: #ffca00;
+    color: #4e0606;
     font-size: 2rem;
 }
 
 .navbar-dark {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
     padding: 8px 0 0 0;
 }
 
 
 
 .nav-link {
-    color: white;
-    font-size: 2rem;
+    
+    font-size: 1.5rem;
     margin-right: 60px;
     padding: 10px 0;
 }
 
 .nav-link:hover {
-    border-bottom: 1px solid #ffca00;
+    border-bottom: 2px solid #4e0606;
+    
 }
 
 .big-heading {
-    color: #ffca00;
+    color: #4e0606;
     font-size: 5rem;
     margin: 100px auto 50px;
-    width: 70%;
+    font-weight: bold;
+    text-align: right;
     /* letter-spacing: 2.5px; */
 }
+
+
 
 .subheader {
     color: white;
